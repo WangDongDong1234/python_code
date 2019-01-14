@@ -12,7 +12,13 @@ result=[]
 dict={}
 for i in range(0,n):
     dict[end[i]]=start[i]
-it=sorted(dict,key=lambda item:item[0])
-print(dict(it))
-
+it=sorted(dict.items())
+print(it)
+start=0
+total=0
+for item in it:
+    if item[1]>=start:
+        start=item[0]
+        total+=1
+        print(item)
 
