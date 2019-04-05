@@ -1,4 +1,5 @@
 """
+-1表示无穷
 0 1 1 -1 1
 1 0 -1 1 -1
 1 -1 0 -1 1
@@ -40,7 +41,7 @@ def dfs(location):
             sum+=1
             book[j]=1
             result.append(j)
-            dfs(j)
+            dfs(j)#这里的回退是指这所有的都执行完了，在执行上一个循环没有执行完成的
 
 
 book[current_n]=1

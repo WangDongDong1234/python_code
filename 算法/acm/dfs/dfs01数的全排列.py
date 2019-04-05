@@ -28,7 +28,7 @@ def dfs(step):
         for i in range(1,n+1):
             print(box[i],end=" ")
         print()
-        return   #返回到之前的一步（即最后一次调用dfs函数的地方）注意 参考书这里不加return的话会无休止的执行下去为啥
+        return   #返回到之前的一步（即最后一次调用dfs函数的地方）注意 参考书这里不加return的话会继续执行下面的for循环
     for i in range(1,n+1):
         if book[i]==0:
             box[step]=i

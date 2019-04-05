@@ -1,3 +1,14 @@
+"""
+炸弹超人
+5 4
+1 1
+4 3
+0 0 1 0
+0 0 0 0
+0 0 1 0
+0 1 0 0
+0 0 0 1
+"""
 mn_str=input("请输入mn").strip()
 mn=[int(item) for item in mn_str.split(" ")]
 m=mn[0]

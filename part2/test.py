@@ -12,6 +12,14 @@
 # a.fun()
 # print(A.name)
 
-list=[1,2,3]
-list.pop(1)
-print(list)
+# list=[1,2,3]
+# list.pop(1)
+# print(list)
+import time
+print(time.time())
+print(time.localtime())
+print(time.strftime("%y-%m-%d",time.localtime()))
+t=time.strftime("%y-%m-%d  %H:%M:%S",time.localtime())
+m=time.strptime(t,"%y-%m-%d  %H:%M:%S")
+print(m)
+

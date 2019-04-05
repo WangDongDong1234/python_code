@@ -29,5 +29,4 @@ class F(D,E):
     pass
 
 f1=F()
-f1.func()
 print(F.mro())
