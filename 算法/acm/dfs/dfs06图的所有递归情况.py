@@ -1,4 +1,4 @@
-.import copy
+import copy
 n=int(input())
 array=[]
 for i in range(0,n+1):

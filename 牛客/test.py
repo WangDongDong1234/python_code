@@ -1,2 +1,4 @@
-for i in range(1,7+1,2):
-    print(i)
+s=input().strip()
+l=[int(item) for item in s.split(' ')]
+for e in l:
+    print(e)
